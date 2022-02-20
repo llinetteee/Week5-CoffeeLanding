@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gideon Roman', cursive;
+    text-align: center;
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url('../img/pexels-burst-374885.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a{
+    background-color:#8b7d71ad;
+    border: 2px solid #8b7d71;
+    color: #e1d3d2;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover{
+    transform: scale(1.2);
+}
+
+.intro-text{
+    height: 250px;
+    background-color: #5c4c4a;
+    color: #e1d3d2 ;
+    padding: o 15rem;
+    display:flex ; 
+    justify-content:center;
+    align-items: center;
+    
+}
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image{
+    background-attachment: fixed;
+    background-image: url('../img/pexels-chevanon-photography-302899.jpg');
+    height: 450px;
+    background-position: bottom;
+    background-size: cover;
+    display:flex ; 
+    justify-content:center;
+    align-items: center;
+}
+.quality-image__link a{
+    background-color:#8b7d71ad;
+    border: 2px solid #8b7d71;
+    color: #e1d3d2;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image__link a:hover{
+    transform: scale(1.2);
+
+}
+
+.quality-text{
+    background-color: #5c4c4a ;
+    color: #e1d3d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: o 15rem;
+}
+
+.quality-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image{
+    background-attachment: fixed;
+    background-image: url('../img/pexels-igor-haritanovich-1695052.jpg');
+    height: 450px;
+    background-position: bottom;
+    background-size: cover;
+    display:flex ; 
+    justify-content:center;
+    align-items: center;
+}
+
+.origin-image__link a{
+    background-color:#8b7d71ad;
+    border: 2px solid #8b7d71;
+    color: #e1d3d2;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.origin-image__link a:hover{
+    transform: scale(1.2);
+}
+
+.origin-text{
+    background-color: #5c4c4a ;
+    color: #e1d3d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: o 15rem;
+}
+
+.origin-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    height: 250px;
+    background-color: #423f3e;
+    color: #e1d3d2;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+display: inline-block;
+margin: 1rem;
+}
+
+.footer ul li a{
+    color:#e1d3d2 ;
+    text-decoration: none;
+}
+
+.footer ul li:hover{
+    transform: scale(1.3);
+    color:#eee5e4;
+}
